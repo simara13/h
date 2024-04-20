@@ -1,0 +1,68 @@
+/* body {background-image: url(photos/tc-1.avif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+} */
+body {
+   height: 1800px;
+}
+.title1 {
+    color:blue;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+.title {
+    color:chartreuse;
+    text-align: center;
+    border-style: dotted;
+    border-width: 7px;
+    border-color:chartreuse;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.title2 {
+    color:rgba(0, 0, 0, 0.712);
+    text-align: left;
+}
+a {
+    color:rgb(226, 141, 43);
+}
+a:visited {
+    blue;
+}
+a:hover{
+    color:red;
+}
+a:active {
+    color:brown;
+}
+.b {
+    list-style-type: square;
+}
+.a {
+    list-style-position: inside;
+    position: relative;
+.f {
+    position: fixed;
+    bottom: 0;}
+
+}   
+.photo1 {
+    width: 200px;
+    height: 200px;
+    border-color: blue;
+    border-style: solid;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
